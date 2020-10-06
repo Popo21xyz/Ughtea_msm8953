@@ -20,8 +20,8 @@ jobs:
 
            git config --global user.email "popo21xyz@gmail.com"
            
-           git clone https://github.com/SebaUbuntu/android_kernel_xiaomi_msm8953.git
-           
+           git commit -m "https://github.com/SebaUbuntu/android_kernel_xiaomi_msm8953.git"
+          
           
           
            
