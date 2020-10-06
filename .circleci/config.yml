@@ -20,7 +20,13 @@ jobs:
 
            git config --global user.email "popo21xyz@gmail.com"
            
-           git commit -m "https://github.com/SebaUbuntu/android_kernel_xiaomi_msm8953.git"
+           git remote add https://github.com/Popo21xyz/Ughtea_msm8953.git
+           
+           git fetch
+           
+           git cherry-pick https://github.com/SebaUbuntu/android_kernel_xiaomi_msm8953.git
+           
+           git merge Ughtea_msm8953/master
           
           
           
