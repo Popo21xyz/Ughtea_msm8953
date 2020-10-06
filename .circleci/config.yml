@@ -6,3 +6,38 @@ jobs:
       - image: circleci/node:latest
     steps:
       - run: git clone pull origin master
+
+
+version: 2.1
+
+jobs:
+
+  compile:
+
+   docker:
+
+      - image: fadlyas/kernel_dockerfile:latest
+
+   steps:
+
+      - run:
+
+          command: |
+
+           apt update && apt install -y default-jre nano flex
+
+           git config --global user.name "Popo21xyz"
+
+           git config --global user.email "popo21xyz@gmail.com"
+
+           git clone https://github.com/SebaUbuntu/android_kernel_xiaomi_msm8953.git
+
+workflows:
+
+  version: 2.1
+
+  cooking:
+
+    jobs:
+
+      - compile
