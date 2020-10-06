@@ -20,16 +20,18 @@ jobs:
 
            git config --global user.email "popo21xyz@gmail.com"
            
-           cd android_kernel_xiaomi_msm8953
+           git clone https://github.com/SebaUbuntu/android_kernel_xiaomi_msm8953.git
+           
+          
           
            
-           git remote add origin https://github.com/Popo21xyz/Ughtea_msm8953.git
 
 
 
-           git pull origin master
+
+       
            
-           git push origin 
+          
 
 workflows:
 
