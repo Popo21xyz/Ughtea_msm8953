@@ -20,11 +20,13 @@ jobs:
 
            git config --global user.email "popo21xyz@gmail.com"
            
+           git remote add origin https://github.com/Popo21xyz/Ughtea_msm8953.git
 
 
-           git pull
+
+           git pull origin master
            
-           git push
+           git push origin 
 
 workflows:
 
