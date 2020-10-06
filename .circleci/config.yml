@@ -20,7 +20,7 @@ jobs:
 
            git config --global user.email "popo21xyz@gmail.com"
            
-           cd android_kernel_xiaomi_msm8953
+
 
            git pull
            
