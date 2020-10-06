@@ -5,4 +5,4 @@ jobs:
     docker:
       - image: circleci/node:latest
     steps:
-      - run: git clone --bare "https://github.com/SebaUbuntu/android_kernel_xiaomi_msm8953.git" --branch "lineage-18.0"
+      - run: git clone pull origin master
