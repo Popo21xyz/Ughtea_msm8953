@@ -19,6 +19,8 @@ jobs:
            git config --global user.name "Popo21xyz"
 
            git config --global user.email "popo21xyz@gmail.com"
+           
+           cd anroid_kernel_xiaomi_msm8953
 
            git pull
            
